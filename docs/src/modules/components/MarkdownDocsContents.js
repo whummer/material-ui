@@ -5,7 +5,7 @@ import kebabCase from 'lodash/kebabCase';
 import { Router } from 'next/router';
 import PropTypes from 'prop-types';
 import { getHeaders, getContents } from 'docs/src/modules/utils/parseMarkdown';
-import PageContext from 'docs/src/modules/components/PageContext';
+import PageContext from './PageContext';
 
 function MarkdownDocsContents(props) {
   const { children, markdownLocation: markdownLocationProp, markdown } = props;

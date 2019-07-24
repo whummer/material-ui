@@ -9,25 +9,25 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
-import MarkdownElement from 'docs/src/modules/components/MarkdownElement';
-import Head from 'docs/src/modules/components/Head';
-import AppContent from 'docs/src/modules/components/AppContent';
-import Demo from 'docs/src/modules/components/Demo';
-import AppFrame from 'docs/src/modules/components/AppFrame';
-import AppTableOfContents from 'docs/src/modules/components/AppTableOfContents';
-import Ad from 'docs/src/modules/components/Ad';
-import EditPage from 'docs/src/modules/components/EditPage';
-import MarkdownDocsContents from 'docs/src/modules/components/MarkdownDocsContents';
-import PageContext from 'docs/src/modules/components/PageContext';
+import MarkdownElement from './MarkdownElement';
+import Head from './Head';
+import AppContent from './AppContent';
+import Demo from './Demo';
+import AppFrame from './AppFrame';
+import AppTableOfContents from './AppTableOfContents';
+import Ad from './Ad';
+import EditPage from './EditPage';
+import MarkdownDocsContents from './MarkdownDocsContents';
+import PageContext from './PageContext';
 import {
   getHeaders,
   getTitle,
   getDescription,
   demoRegexp,
-} from 'docs/src/modules/utils/parseMarkdown';
-import { pageToTitleI18n } from 'docs/src/modules/utils/helpers';
-import { LANGUAGES_IN_PROGRESS } from 'docs/src/modules/constants';
-import Link from 'docs/src/modules/components/Link';
+} from '../utils/parseMarkdown';
+import { pageToTitleI18n } from '../utils/helpers';
+import { LANGUAGES_IN_PROGRESS } from '../constants';
+import Link from './Link';
 
 const styles = theme => ({
   header: {

@@ -8,7 +8,7 @@ import { fade, useTheme, makeStyles } from '@material-ui/core/styles';
 import Input from '@material-ui/core/Input';
 import SearchIcon from '@material-ui/icons/Search';
 import loadScript from 'docs/src/modules/utils/loadScript';
-import { handleEvent } from 'docs/src/modules/components/MarkdownLinks';
+import { handleEvent } from './MarkdownLinks';
 
 let searchTimer;
 let initialized = false;

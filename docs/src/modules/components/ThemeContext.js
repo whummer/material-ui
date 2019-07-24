@@ -5,7 +5,7 @@ import { createMuiTheme, darken } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { blue, pink } from '@material-ui/core/colors';
 import { getCookie } from 'docs/src/modules/utils/helpers';
-import { darkTheme, setPrismTheme } from 'docs/src/modules/components/prism';
+import { darkTheme, setPrismTheme } from './prism';
 import deepmerge from 'deepmerge';
 
 export const themeColor = blue[700];

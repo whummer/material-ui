@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { pageToTitleI18n } from 'docs/src/modules/utils/helpers';
-import PageContext from 'docs/src/modules/components/PageContext';
+import PageContext from './PageContext';
 
 // TODO: it really wants to be named useTitle but we're not quite there yet.
 function PageTitle(props) {

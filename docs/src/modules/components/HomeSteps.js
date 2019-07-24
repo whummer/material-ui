@@ -10,9 +10,9 @@ import Divider from '@material-ui/core/Divider';
 import { FileDownload as FileDownloadIcon } from '@material-ui/docs';
 import BuildIcon from '@material-ui/icons/Build';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
-import MarkdownElement from 'docs/src/modules/components/MarkdownElement';
+import MarkdownElement from './MarkdownElement';
 import NoSsr from '@material-ui/core/NoSsr';
-import Link from 'docs/src/modules/components/Link';
+import Link from './Link';
 
 const InstallationLink = React.forwardRef((buttonProps, ref) => (
   <Link naked prefetch href="/getting-started/installation" ref={ref} {...buttonProps} />

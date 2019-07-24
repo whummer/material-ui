@@ -8,10 +8,10 @@ import Drawer from '@material-ui/core/Drawer';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Divider from '@material-ui/core/Divider';
 import Hidden from '@material-ui/core/Hidden';
-import AppDrawerNavItem from 'docs/src/modules/components/AppDrawerNavItem';
-import Link from 'docs/src/modules/components/Link';
+import AppDrawerNavItem from './AppDrawerNavItem';
+import Link from './Link';
 import { pageToTitleI18n } from 'docs/src/modules/utils/helpers';
-import PageContext from 'docs/src/modules/components/PageContext';
+import PageContext from './PageContext';
 
 let savedScrollTop = null;
 function PersistScroll(props) {

@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import NoSsr from '@material-ui/core/NoSsr';
-import Link from 'docs/src/modules/components/Link';
+import Link from './Link';
 
 const backers = [
   {

@@ -24,15 +24,15 @@ import {
 import NProgressBar from '@material-ui/docs/NProgressBar';
 import FormatTextdirectionLToR from '@material-ui/icons/FormatTextdirectionLToR';
 import FormatTextdirectionRToL from '@material-ui/icons/FormatTextdirectionRToL';
-import Link from 'docs/src/modules/components/Link';
-import AppDrawer from 'docs/src/modules/components/AppDrawer';
-import AppSearch from 'docs/src/modules/components/AppSearch';
-import Notifications from 'docs/src/modules/components/Notifications';
-import MarkdownLinks from 'docs/src/modules/components/MarkdownLinks';
-import PageTitle from 'docs/src/modules/components/PageTitle';
-import { LANGUAGES } from 'docs/src/modules/constants';
-import { pathnameToLanguage } from 'docs/src/modules/utils/helpers';
-import { useChangeTheme } from 'docs/src/modules/components/ThemeContext';
+import Link from './Link';
+import AppDrawer from './AppDrawer';
+import AppSearch from './AppSearch';
+import Notifications from './Notifications';
+import MarkdownLinks from './MarkdownLinks';
+import PageTitle from './PageTitle';
+import { LANGUAGES } from '../constants';
+import { pathnameToLanguage } from '../utils/helpers';
+import { useChangeTheme } from './ThemeContext';
 
 Router.onRouteChangeStart = () => {
   NProgress.start();

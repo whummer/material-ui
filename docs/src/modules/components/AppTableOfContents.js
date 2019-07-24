@@ -10,7 +10,7 @@ import { useSelector } from 'react-redux';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import textToHash from 'docs/src/modules/utils/textToHash';
-import Link from 'docs/src/modules/components/Link';
+import Link from './Link';
 
 const useStyles = makeStyles(theme => ({
   root: {

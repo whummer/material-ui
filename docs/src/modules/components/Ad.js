@@ -4,8 +4,8 @@ import { useSelector } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
-import AdCodeFund from 'docs/src/modules/components/AdCodeFund';
-import AdCarbon from 'docs/src/modules/components/AdCarbon';
+import AdCodeFund from './AdCodeFund';
+import AdCarbon from './AdCarbon';
 
 const styles = theme => ({
   root: {
